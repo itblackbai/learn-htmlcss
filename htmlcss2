@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html-lang="ua">
+	<head>
+		<title>  Форма  </title>	
+		<meta http-equiv="Contect-type" content="text/html;charset=UTF-8" />
+	</head>	
+	<body>
+		<form action="#" method="get">
+			<div>	
+				<p>Name</p>
+				<input placeholder="Name" tabindex="1" type="text" name="username">
+			</div>
+			<div>	
+				<p>Password</p>
+				<input tabindex="2" type="Password" name="userpass">
+			</div>
+			<div>	
+				<p>Phone</p>
+				<input tabindex="3" placeholder="+380*********"tabindex="3" type="tel" name="userphone">
+			</div>
+			<div>	
+				<p>Gender</p>
+				<div>	
+					<input tabindex="4" type="radio" name="gender" value="male"/> Man
+					<input tabindex="4" type="radio" name="gender" value="female"/> Woman
+				</div>
+			</div>
+			<div>	
+				<p>Property</p>
+				<div>	
+					<input tabindex="5" checked type="checkbox" name="bikecycle" value="yes"/> Bicycle
+					<input tabindex="6" type="checkbox" name="car" value="yes"/> Car
+					<input tabindex="7" disabled type="checkbox" name="house" value="yes"/> House
+				</div>
+			</div>
+			<div>
+				<p>Additional information</p>
+				<textarea tabindex="8" name="text"></textarea>
+			</div>	
+			<div>	
+				<p>Add photo</p>
+				<input tabindex="9" type="file" name="userfoto">
+			</div>
+			<div>	
+				<p>Lovely color</p>
+				<select tabindex="10" name="color">
+					<option value="red">Red</option>
+					<option value="green">Green</option>
+					<option value="black">Black</option>
+				</select>
+			</div>
+
+			<div>	
+				<p>Action</p>
+				<button type="submit">Send</button>
+				<button type="reset">Reset</button>
+			</div>
+
+		</form>
+	</body>
+</html>
